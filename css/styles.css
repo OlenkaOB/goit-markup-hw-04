@@ -123,6 +123,7 @@ color: #404bbf;
    background-repeat: no-repeat;
    background-size: cover;
    background: rgba(46, 47, 66, 0.7), url(../images/people-office.jpg);
+   background-position: center;
 }
 .title {
     font-family: "Roboto", sans-serif;
