@@ -224,6 +224,8 @@ color: #404bbf;
     color: #434455;
    
 }
+
+
 /* ------------------------- */
 /* -------section3---------- */
 
@@ -295,6 +297,7 @@ color: #404bbf;
     background-color: #4d5ae5;
    
 }
+
 
 /* ------------------------- */
 /* --------section4--------- */
@@ -376,5 +379,11 @@ color: #404bbf;
   
    padding: 100px 0;
 
+}
+.box-icon-list {
+    display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: flex-end;
 }
 /* ------------------------- */
