@@ -32,6 +32,7 @@ p {
   width: 1158px;
   margin: 0 auto;
 }
+
 /* ---------header-------- */
 .page-header .container {
   display: flex;
@@ -124,6 +125,7 @@ p {
   background-size: cover;
   background: rgba(46, 47, 66, 0.7), url(../images/people-office.jpg);
   background-position: center;
+  width: 1440px;
 }
 .title {
   font-family: "Roboto", sans-serif;
@@ -323,11 +325,24 @@ p {
   margin: 0;
   padding: 0;
   width: calc((100% - 48px) / 3);
+  overflow: hidden;
 }
+
 .heading-add {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+  background-color: #3f51b5;
+}
+
+.heading-class:hover .heading-add {
+  transform: translateY(0);
 }
 
 .portfolio .box {
