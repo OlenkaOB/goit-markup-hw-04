@@ -41,6 +41,8 @@ p {
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav {
   display: flex;
@@ -120,12 +122,15 @@ p {
   background: #2e2f42;
   align-content: center;
   padding: 188px 0;
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background: rgba(46, 47, 66, 0.7), url(../images/people-office.jpg);
   background-position: center;
-  width: 1440px;
+  max-width: 1440px;
 }
 .title {
   font-family: "Roboto", sans-serif;
@@ -165,6 +170,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ------------------------- */
 /* ----------section2---------- */
@@ -334,6 +340,13 @@ p {
   padding: 0;
   width: calc((100% - 48px) / 3);
   overflow: hidden;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.heading-image {
+  position: relative;
+  overflow: hidden;
 }
 
 .heading-add {
@@ -394,7 +407,7 @@ p {
 
   padding: 100px 0;
 }
-.box-icon-list .box-icon {
+.box-icon {
   display: flex;
   justify-content: center;
   width: 40px;
@@ -406,6 +419,9 @@ p {
 .box-icon:hover {
   background-color: #31d0aa;
 }
+.box-icon:focus {
+  background-color: #31d0aa;
+}
 
 .box-icon-list {
   display: flex;
@@ -413,8 +429,14 @@ p {
   flex-shrink: 0;
   align-self: flex-end;
 }
+.item-icon {
+  width: 40px;
+  height: 40px;
+}
+
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 .container-box {
   margin-right: 120px;
@@ -424,9 +446,16 @@ p {
 }
 .title-social {
   color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .icon {
-  fill: #fff;
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
 
 /* ------------------------- */
