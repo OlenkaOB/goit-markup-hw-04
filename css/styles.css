@@ -260,6 +260,10 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  padding-bottom: 8px;
+}
+.icon-one {
+  fill: #fff;
 }
 
 .div-heading {
@@ -288,11 +292,15 @@ p {
 .box-heading-icon .box-one-icon {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  align-items: center;
+}
+.box-heading-icon {
+  display: flex;
+  text-align: center;
 }
 
 /* ------------------------- */
@@ -348,6 +356,7 @@ p {
 .portfolio .box {
   padding: 120px;
 }
+
 /* ------------------------- */
 /* ---------footer---------- */
 .logo-two {
@@ -385,11 +394,39 @@ p {
 
   padding: 100px 0;
 }
+.box-icon-list .box-icon {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  align-items: center;
+}
+.box-icon:hover {
+  background-color: #31d0aa;
+}
+
 .box-icon-list {
   display: flex;
-  gap: 8px;
+  gap: 16px;
   flex-shrink: 0;
   align-self: flex-end;
+}
+.footer-box {
+  display: flex;
+}
+.container-box {
+  margin-right: 120px;
+}
+.container-social {
+  width: 208px;
+}
+.title-social {
+  color: #fff;
+}
+.icon {
+  fill: #fff;
 }
 
 /* ------------------------- */
