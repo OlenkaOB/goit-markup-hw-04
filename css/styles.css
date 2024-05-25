@@ -412,7 +412,7 @@ p {
   background-color: #3f51b5;
 }
 
-.heading-class:hover .heading-portfolio:hover {
+.heading-class:hover .heading-portfolio {
   transform: translateY(0);
 }
 
