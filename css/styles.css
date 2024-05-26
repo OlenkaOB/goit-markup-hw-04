@@ -412,9 +412,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(100%);
+
   transition: transform 250ms ease-in-out;
-  background-color: #3f51b5;
 }
 
 .heading-class:hover .heading-portfolio {
