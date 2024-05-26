@@ -113,6 +113,8 @@ p {
   color: #2e2f42;
   padding: 24px 0;
   position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -135,7 +137,9 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /* ------------------------- */
 /* ---------section-------- */
 .cont {
@@ -336,7 +340,6 @@ p {
 .box-icon-icon {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-one-icon {
   width: 100%;
@@ -346,6 +349,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-one-icon:hover {
@@ -478,7 +482,9 @@ p {
   border-radius: 50%;
   background-color: #4d5ae5;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .box-icon:hover {
   background-color: #31d0aa;
 }
@@ -496,7 +502,6 @@ p {
 .item-icon {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container {
